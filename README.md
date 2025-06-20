@@ -16,3 +16,7 @@ This project is a small swipe-based demo that includes a couple of Progressive W
 
 - **Manifest:** `manifest.json` provides metadata like the name and theme colors so the app can be added to a home screen.
 - **Service worker:** `service-worker.js` registers a service worker that currently just logs installation but lays the groundwork for offline capabilities.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
