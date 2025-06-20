@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Walk or Talk</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="app">
+  <h1>Walk or Talk</h1>
+
+  <div id="card-container">
+    <div id="profile-card">
+      <!-- Profile data loads here -->
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button id="pass">❌ Walk</button>
+    <button id="like">💬 Talk</button>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+</body>
+</html>
