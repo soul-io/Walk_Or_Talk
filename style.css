@@ -38,13 +38,26 @@ h1 {
   transition: transform 0.6s;
   border-radius: 25px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .profile-pic {
-  width: 100%;
+  width: 50%;
   border-radius: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 0;
   border: 2px solid white;
+}
+
+.profile-text {
+  flex: 1;
+  text-align: left;
+}
+
+.score {
+  font-weight: 600;
+  margin-top: 5px;
 }
 
 #profile-card h2 {
@@ -53,7 +66,7 @@ h1 {
 }
 
 #profile-card p {
-  font-size: 1em;
+  font-size: 1.2em;
   opacity: 0.9;
   margin-top: 10px;
 }
