@@ -3,19 +3,19 @@ let profiles = [
     name: "Jess",
     age: 29,
     prompt: "Two truths and a lie: I ran a marathon, I met Drake, I hate pizza.",
-    photo: "https://randomuser.me/api/portraits/women/44.jpg"
+    photo: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=80"
   },
   {
     name: "Aiden",
     age: 32,
     prompt: "Ask me about my dog and you'll win my heart.",
-    photo: "https://randomuser.me/api/portraits/men/33.jpg"
+    photo: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80"
   },
   {
     name: "Maya",
     age: 26,
     prompt: "I’ve been skydiving twice and survived both.",
-    photo: "https://randomuser.me/api/portraits/women/65.jpg"
+    photo: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=600&q=80"
   }
 ];
 

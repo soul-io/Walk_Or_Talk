@@ -1,6 +1,6 @@
 # Walk_Or_Talk
 
-This project is a small swipe-based demo that includes a couple of Progressive Web App (PWA) basics.
+This project is a small swipe-based demo that includes a couple of Progressive Web App (PWA) basics. It now features softer styling using the Poppins font.
 
 ## Opening the app
 
