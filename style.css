@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   color: white;
-  background-image: url('background.jpg');
+  background-image: linear-gradient(rgba(255,165,0,0.35), rgba(255,229,204,0.35)), url('background.jpg.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,6 +121,5 @@ button:hover {
 .talk-animation {
   transform: rotateY(180deg);
 }
-background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1400&q=80');
 
 
