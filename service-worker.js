@@ -6,7 +6,6 @@ const ASSETS_TO_CACHE = [
   'index.html',
   'style.css',
   'script.js',
-  'background.jpeg',
   'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=80',
   'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80',
   'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=600&q=80'
