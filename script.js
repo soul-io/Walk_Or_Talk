@@ -2,18 +2,21 @@ let profiles = [
   {
     name: "Jess",
     age: 29,
+    rtSq: 72,
     prompt: "Two truths and a lie: I ran a marathon, I met Drake, I hate pizza.",
     photo: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=80"
   },
   {
     name: "Aiden",
     age: 32,
+    rtSq: 65,
     prompt: "Ask me about my dog and you'll win my heart.",
     photo: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80"
   },
   {
     name: "Maya",
     age: 26,
+    rtSq: 81,
     prompt: "I’ve been skydiving twice and survived both.",
     photo: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=600&q=80"
   }
@@ -32,8 +35,11 @@ function showProfile() {
 
   card.innerHTML = `
     <img class="profile-pic" src="${profile.photo}" alt="${profile.name}" />
-    <h2>${profile.name}, ${profile.age}</h2>
-    <p>${profile.prompt}</p>
+    <div class="profile-text">
+      <h2>${profile.name}, ${profile.age}</h2>
+      <p class="score">RT/SQ Score: ${profile.rtSq}</p>
+      <p>${profile.prompt}</p>
+    </div>
   `;
 }
 
