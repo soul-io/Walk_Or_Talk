@@ -57,7 +57,7 @@ function animateAndNext(type) {
   setTimeout(() => {
     current++;
     showProfile();
-  }, 500);
+  }, 650);
 }
 
 document.getElementById("like").onclick = () => {
