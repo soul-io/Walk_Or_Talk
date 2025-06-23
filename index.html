@@ -2,28 +2,63 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Walk or Talk</title>
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-<div class="app">
-  <h1>Walk or Talk</h1>
-
-  <div id="card-container">
-    <div id="profile-card">
-      <!-- Profile data loads here -->
-    </div>
+  <div class="app">
+    <h1>Walk or Talk</h1>
+    <form id="signup-form">
+      <div class="form-step" id="step1">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input type="number" id="age" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+        </div>
+        <button type="button" class="next">Continue</button>
+      </div>
+      <div class="form-step" id="step2">
+        <div class="form-group">
+          <label for="q1">What pulls you in when meeting someone?</label>
+          <input type="text" id="q1" />
+        </div>
+        <div class="form-group">
+          <label for="q2">Describe your ideal first date</label>
+          <input type="text" id="q2" />
+        </div>
+        <div class="form-group">
+          <label for="q3">What's a fun fact about you?</label>
+          <input type="text" id="q3" />
+        </div>
+        <button type="button" class="next">Continue</button>
+      </div>
+      <div class="form-step" id="step3">
+        <div class="form-group">
+          <label for="q4">What quality do you value most in a partner?</label>
+          <input type="text" id="q4" />
+        </div>
+        <div class="form-group">
+          <label for="q5">Are you more of a talker or a walker?</label>
+          <input type="text" id="q5" />
+        </div>
+        <div class="form-group">
+          <label for="q6">Anything else we should know?</label>
+          <input type="text" id="q6" />
+        </div>
+        <button type="submit" class="next">Continue</button>
+      </div>
+    </form>
   </div>
-
-  <div class="buttons">
-    <button id="pass">❌ Walk</button>
-    <button id="like">💬 Talk</button>
-  </div>
-</div>
-
   <script src="script.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
