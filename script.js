@@ -57,6 +57,9 @@ function animateAndNext(type) {
   setTimeout(() => {
     current++;
     showProfile();
+
+    card.classList.remove("walk-animation", "talk-animation");
+
   }, 650);
 }
 

@@ -40,7 +40,10 @@ h1 {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 
   width: 100%;
-=======
+
+
+  width: 100%;
+
   display: flex;
   align-items: center;
   gap: 20px;
@@ -67,12 +70,14 @@ h1 {
 #profile-card h2 {
   margin: 0;
   font-size: 1.4em;
+  width: 100%;
 }
 
 #profile-card p {
   font-size: 1.2em;
   opacity: 0.9;
   margin-top: 10px;
+  width: 100%;
 }
 
 /* Buttons */
