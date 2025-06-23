@@ -46,6 +46,7 @@ h1 {
 
 .profile-pic {
   width: 50%;
+  object-fit: cover;
   border-radius: 20px;
   margin-bottom: 0;
   border: 2px solid white;
