@@ -51,7 +51,8 @@ function animateAndNext(type) {
   setTimeout(() => {
     current++;
     showProfile();
-  }, 500);
+    card.classList.remove("walk-animation", "talk-animation");
+  }, 650);
 }
 
 document.getElementById("like").onclick = () => {
